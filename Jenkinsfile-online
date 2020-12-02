@@ -10,10 +10,10 @@ pipeline {
     }
 
     environment {
-        DOCKER_CREDENTIAL_ID = 'dockerhub-id'
-        GITHUB_CREDENTIAL_ID = 'github-id'
-        KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
-        REGISTRY = 'docker.io'
+        DOCKER_CREDENTIAL_ID = 'sd-hub'
+        GITHUB_CREDENTIAL_ID = 'sd-git'
+        KUBECONFIG_CREDENTIAL_ID = 'kube-config'
+        REGISTRY = 'hub.1688iot.vip'
         DOCKERHUB_NAMESPACE = 'docker_username'
         GITHUB_ACCOUNT = 'kubesphere'
         APP_NAME = 'devops-java-sample'
