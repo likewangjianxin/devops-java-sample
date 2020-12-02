@@ -14,8 +14,8 @@ pipeline {
         GITHUB_CREDENTIAL_ID = 'sd-git'
         KUBECONFIG_CREDENTIAL_ID = 'kube-config'
         REGISTRY = 'hub.1688iot.vip'
-        DOCKERHUB_NAMESPACE = 'docker_username'
-        GITHUB_ACCOUNT = 'kubesphere'
+        DOCKERHUB_NAMESPACE = 'admin'
+        GITHUB_ACCOUNT = 'admin'
         APP_NAME = 'devops-java-sample'
     }
 
